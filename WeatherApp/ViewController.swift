@@ -128,8 +128,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 // Gradient Background Color functions
     
     func setBlueGradientBackground() {
-        let topColor = UIColor(red: 90.0/255.0, green: 160.0/255.0, blue: 1.0, alpha: 1.0).cgColor
-        let bottomColor = UIColor(red: 75.0/255.0, green: 120.0/255.0, blue: 190.0/255.0, alpha: 1.0).cgColor
+        let topColor = UIColor(red: 75.0/255.0, green: 210.0/255.0, blue: 1.0, alpha: 1.0).cgColor
+        let bottomColor = UIColor(red: 95.0/255.0, green: 110.0/255.0, blue: 200.0/255.0, alpha: 1.0).cgColor
         gradientLayer.frame = view.bounds
         gradientLayer.colors = [topColor, bottomColor]
     }
